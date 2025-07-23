@@ -1,5 +1,5 @@
 context:
-  version: "2.4.2"
+  version: "2.5.0"
 
 package:
   name: jiti
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/jiti/-/jiti-${{ version }}.tgz
-  sha256: 1ccaf2032a95ae6106e81c860e628a37349aa90f1a438efc9375eb87b2352c0b
+  sha256: ec3ed45afd61d329f5300d2b8614536db2ffbdb394943212f4db7a20f9ddb799
 
 build:
   number: 0
