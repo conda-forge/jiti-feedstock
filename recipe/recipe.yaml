@@ -10,7 +10,7 @@ source:
   sha256: 7984fc7841de02c0b2992a72e2069d4b569d23e58d097f9b050ea13b781fd5f1
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
 
 tests:
   - script:
-      - jiti 2>&1 | grep -q "Usage: "jiti <path> \\[...arguments\\]\""
+      - "jiti 2>&1 | grep -q \"Usage: \"jiti <path> \\\\[...arguments\\\\]\\\"\""
 
 about:
   license: MIT
